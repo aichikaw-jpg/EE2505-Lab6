@@ -43,6 +43,8 @@ while True:
         #Adds a bunch of spaces if the distance is greater
         topLine += "            "
 
+      #make sure that it does not go past 16 characters
+      topLine = topLine[:16]
       #add the distance to the bottom line
       bottomLine = str(distanceVal) + "cm"
 
