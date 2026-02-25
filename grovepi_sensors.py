@@ -51,8 +51,7 @@ while True:
       #set text fufnction for the LCD, and makes sure that it doesnt blink
       setText_norefresh(topLine + "\n" + bottomLine)
 
-      #add a bit of delay just in case
-      time.sleep(2)
+      
 
     
   except IOError:
